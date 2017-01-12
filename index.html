@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tictac</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="app.js"></script>
+</head>
+<body id="body">
+<div class = "container-fluid" id="container-fluid">
+<div class="container" id="container">
+  
+  
+  <h1 class = "text-center">TIC TAC TOE</h1>
+  <span><p>select</p></span>
+  <a class=" btn btn-primary" id="x"value="true" onclick="selectx()">select x</a>
+  
+  <a class="btn btn-primary" id="o" onclick="selecto()" >select o</a>
+  
+  <div id= "container">
+  <div class="row">
+    <div class="col-md-4 col pink " >
+     <h1 onclick="change(1)" id="old">1</h1>
+    </div>
+    <div class="col-md-4 col yellow">
+      <h1 onclick="change(2)">2</h1>
+    </div>
+    <div class="col-md-4 col pink">
+     <h1 onclick="change(3)">3</h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 col pink">
+    <h1 onclick="change(4)">4</h1>
+    </div>
+    <div class="col-md-4 col yellow" >
+      <h1 onclick="change(5)">5</h1>
+    </div>
+    <div class="col-md-4 col pink">
+     <h1 onclick="change(6)">6</h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 col pink" >
+    <h1 onclick="change(7)">7</h1>
+    </div>
+    <div class="col-md-4 col yellow" >
+    <h1 onclick="change(8)">8</h1>
+    </div>
+    <div class="col-md-4 col pink">
+    <h1 onclick="change(9)">9</h1>
+    </div>
+    </div>
+    <button onclick="resetpage()">reset</button>
+  </div>
+  
+</div>
+</body>
+</html>
